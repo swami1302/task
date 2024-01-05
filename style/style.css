@@ -357,7 +357,8 @@ body {
 /* About */
 
 .about{
-    width: 1220px;
+    width: 100%;
+    max-width: 1220px;
     height: 500px;
     margin-top: 150px;
     margin-right: 80px;
@@ -366,12 +367,19 @@ body {
     align-items: center;
     gap: 96px;
     margin-left: 80px;
+    padding: 0 20px;
+    margin-bottom: 50px;
 
 }
 
 .about .left-content img{
     width: 352px;
     height: 500px;
+    margin: 0 auto;
+}
+
+.about .right-content {
+    flex: 1;
 }
 
 .about .right-content .intro{
@@ -393,10 +401,12 @@ body {
     font-size: 15px;
     line-height: 30px;
     margin-top: 32px;
+    text-align: justify;
 }
 
 .about .right-content button{
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     height: 56px;
     background-color: var(--button-color);
     color: #ffffff;
@@ -439,6 +449,7 @@ footer p{
 
     .menu-button {
         display: block;
+        margin-right: 28px;
     }
 
     .container-1 {
@@ -446,7 +457,7 @@ footer p{
     }
 
     .design {
-        width: 110%;
+        width: 80%;
         left: 15%;
     }
 
@@ -468,19 +479,31 @@ footer p{
 
     }
 
-    .about{
-        display: block;
+    .about {
+        flex-direction: column; 
+        align-items: flex-start;
+        text-align: center;
+        width: 520px;
+    }
+
+    .about .left-content img {
+        width: 100%; 
+        height: auto; 
+        margin-top: 255px;
+    }
+
+    .about .right-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        
     }
 
     footer {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 20px;
-    }
 
-    footer p {
-        flex: 1;
-        max-width: none;
+        margin-top: 420px; 
     }
 
 

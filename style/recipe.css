@@ -371,6 +371,48 @@ footer p{
 
     .menu-button {
         display: block;
+        margin-right: 28px;
+    }
+    
+    .container > * {
+        width: 100%;
+    }
+    .preparation {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .preparation h1 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .preparation ol li {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        padding-left: 0;
+        text-align: justify;
+    }
+    .image-container {
+        margin-top: 62px;
+        width: 90%;
+    }
+
+    .slide-wrapper .img-list{
+        width: 100%;
+    }
+
+    .dishes .box-container .box img{
+         height: auto;
+         width: 80%;
+
+    }
+    footer {
+
+        margin-top: 20px; 
     }
 }
 
