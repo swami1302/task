@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="./style/recipe.css" />
+    <script src="./javascript/recipe.js" async></script>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul class="menu-items sidebar">
+        <li onclick="closeSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg>
+            </a>
+        </li>
+        <li><a href="#">Tips</a></li>
+        <li><a href="#">Lifestyle</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="menu-items">
+        <li><a href="">Simple Foods</a></li>
+        <li class="hideOnMobile"><a href="#">Tips</a></li>
+        <li class="hideOnMobile"><a href="#">Lifestyle</a></li>
+        <li class="hideOnMobile">
+          <a href="#"><strong>Recipes</strong></a>
+        </li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg>
+            </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+        <div class="instruction-container">
+            <img src="./asset/images/img-2-1.png" alt="" class="img-1"/>
+        <div class="instruction-1">
+          <h1 class="heading">Butternut Squash Soup</h1>
+          <ul>
+            <li class="details">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="13.237"
+                height="18"
+                viewBox="0 0 23.237 40"
+              >
+                <path
+                  id="Icon_-_spoon"
+                  data-name="Icon - spoon"
+                  d="M124.237,4.066v.793a.747.747,0,1,1-1.494,0V4.066a2.573,2.573,0,0,0-5.145,0V31.59A8.3,8.3,0,1,1,101,31.7V29.046a.747.747,0,0,1,.747-.747h11.67a.747.747,0,0,1,0,1.494H102.494V31.7a6.805,6.805,0,1,0,13.61-.111V4.066a4.066,4.066,0,0,1,8.133,0ZM106.63,34.093a.747.747,0,1,0-1.113,1,5.542,5.542,0,0,0,1.769,1.321.747.747,0,1,0,.638-1.35A4.053,4.053,0,0,1,106.63,34.093Z"
+                  transform="translate(-101)"
+                />
+              </svg>
+
+              <span>6 - 8 portions</span>
+            </li>
+            <li class="details">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 40 40"
+              >
+                <path
+                  id="Icon_-_apron"
+                  data-name="Icon - apron"
+                  d="M32.863,19.087h-.747A5.317,5.317,0,0,1,26.8,13.776v-3.9a.747.747,0,0,0-.747-.747H14.689V6.8a5.311,5.311,0,0,1,10.622,0,.747.747,0,1,0,1.494,0,6.8,6.8,0,0,0-13.61,0v6.971a5.317,5.317,0,0,1-5.311,5.311h-1A3.822,3.822,0,0,0,3.071,22.9v2.241A2.326,2.326,0,0,1,.747,27.469a.747.747,0,0,0,0,1.494,3.822,3.822,0,0,0,3.817-3.817V22.9A2.327,2.327,0,0,1,6.39,20.635V37.261A2.742,2.742,0,0,0,9.129,40H30.871a2.742,2.742,0,0,0,2.739-2.739V19.834A.747.747,0,0,0,32.863,19.087Zm-.747,18.174a1.246,1.246,0,0,1-1.245,1.245H9.129a1.246,1.246,0,0,1-1.245-1.245V20.581a6.813,6.813,0,0,0,6.8-6.8V10.622H25.311v3.154a6.813,6.813,0,0,0,6.8,6.8ZM40,28.216a.747.747,0,0,1-.747.747,3.822,3.822,0,0,1-3.817-3.817V22.9a2.3,2.3,0,0,0-.494-1.433.747.747,0,0,1,1.175-.922,3.78,3.78,0,0,1,.812,2.355v2.241a2.326,2.326,0,0,0,2.324,2.324A.747.747,0,0,1,40,28.216ZM24.564,22.573H15.436A2.742,2.742,0,0,0,12.7,25.311V31.12a2.742,2.742,0,0,0,2.739,2.739h9.129A2.742,2.742,0,0,0,27.3,31.12V25.311A2.742,2.742,0,0,0,24.564,22.573Zm1.245,8.548a1.246,1.246,0,0,1-1.245,1.245H15.436a1.246,1.246,0,0,1-1.245-1.245V28.963h9.295a.747.747,0,1,0,0-1.494H14.191V25.311a1.246,1.246,0,0,1,1.245-1.245h9.129a1.246,1.246,0,0,1,1.245,1.245Z"
+                />
+              </svg>
+              <span>15 min preparation</span>
+            </li>
+            <li class="details">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="15.187"
+                viewBox="0 0 40 35.187"
+              >
+                <path
+                  id="Icon_-_cooking"
+                  data-name="Icon - cooking"
+                  d="M39.576,46.854,35.933,48.6v9.53a6.065,6.065,0,0,1-6.058,6.058H10.124A6.065,6.065,0,0,1,4.066,58.13V48.6L.424,46.854a.747.747,0,0,1,.646-1.347l3,1.437V42.612h-.83a.747.747,0,1,1,0-1.494H36.763a.747.747,0,0,1,0,1.494H5.56V56.166H31.452a.747.747,0,0,1,0,1.494H5.56v.47a4.569,4.569,0,0,0,4.564,4.564H29.875a4.569,4.569,0,0,0,4.564-4.564V44.6a.747.747,0,0,1,1.494,0v2.34l3-1.437a.747.747,0,1,1,.646,1.347ZM4.066,36.969V35.143a3.406,3.406,0,0,1,3.4-3.4H32.531a3.406,3.406,0,0,1,3.4,3.4v1.826a.747.747,0,0,1-.747.747H4.813A.747.747,0,0,1,4.066,36.969Zm1.494-.747H34.439V35.143a1.911,1.911,0,0,0-1.909-1.909H7.469A1.911,1.911,0,0,0,5.56,35.143ZM18.34,30.5H21.66a.747.747,0,1,0,0-1.494H18.34a.747.747,0,1,0,0,1.494Z"
+                  transform="translate(0 -29.002)"
+                />
+              </svg>
+              <span>30 min cooking</span>
+            </li>
+          </ul>
+          <p>Soup — Healthy — Vegetarian — Gluten free</p>
+        </div>
+      </div>
+      <div class="design"></div>
+      <div class="instruction-container">
+        <img src="./asset/images/ingre-1.png" alt="" class="img-2"/>
+        <div class="instrunction-2">
+          <p class="heading">Soup</p>
+          <ul class="soup">
+            <li class="details">
+              1 medium butternut squash, peeled and cut into 1-inch cubes
+            </li>
+            <li class="details">1 onion, diced</li>
+            <li class="details">1 tablespoon olive oil</li>
+            <li class="details">3/4 teaspoon salt</li>
+            <li class="details">
+              1/2 teaspoon fresh thyme leaves, finely chopped
+            </li>
+            <li class="details">4 cups vegetable stock</li>
+          </ul>
+          <p class="heading">Garnish</p>
+          <ul class="garnish">
+            <li class="details">1/4 cup pumpkin seeds</li>
+            <li class="details">1/2 cup feta cheese</li>
+            <li class="details">2 tablespoon chili powder</li>
+          </ul>
+        </div>
+    </div>
+    <div class="preparation">
+        <h1 class="heading">Preparation</h1>
+        <ol>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </li>
+            <li>Diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</li>
+        </ol>
+    </div>
+</div>
+<div class="image-container">
+    <h1 class="heading">You may also like..</h1>
+    <div class="slide-wrapper">
+        <div class="img-list">
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-1.png" alt="img-1" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Miso & Tofu Soup</h3>
+                <p class="para">40 min    —    4 - 6 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-2.png" alt="img-2" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Thai Soup</h3>
+                <p class="para">45 min    —    6 - 8 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-3.png" alt="img-3" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Spicy Tomato Soup</h3>
+                <p class="para">30 min    —    6 - 8 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-1.png" alt="img-1" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Miso & Tofu Soup</h3>
+                <p class="para">40 min    —    4 - 6 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-2.png" alt="img-2" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Thai Soup</h3>
+                <p class="para">45 min    —    6 - 8 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/recipes/img-3.png" alt="img-3" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Spicy Tomato Soup</h3>
+                <p class="para">30 min    —    6 - 8 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/img-1.png" alt="img-1" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Miso & Tofu Soup</h3>
+                <p class="para">40 min    —    4 - 6 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/img-2.png" alt="img-2" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Thai Soup</h3>
+                <p class="para">45 min    —    6 - 8 portions</p>
+            </div>
+            <div class="text-content">
+                <img src="./asset/images/img-3.png" alt="img-3" class="img-item">
+                <p class="heading">Recipes — SoUP</p>
+                <h3>Spicy Tomato Soup</h3>
+                <p class="para">30 min    —    6 - 8 portions</p>
+            </div>
+        </div>
+        <button id="next-slide" class="slide-button"><svg xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 40 40">
+                <defs>
+                    <clipPath id="clip-path">
+                        <path id="Path_4" data-name="Path 4" d="M0,0H40V40H0Z" fill="none"
+                            clip-rule="evenodd" />
+                    </clipPath>
+                </defs>
+                <g id="Icon_-_Arrow" data-name="Icon - Arrow" clip-path="url(#clip-path)">
+                    <path id="Path_3" data-name="Path 3"
+                        d="M26.94,30.12a1.421,1.421,0,0,0-2.02,2L35.14,42.34H1.42A1.4,1.4,0,0,0,0,43.74a1.43,1.43,0,0,0,1.42,1.44H35.16L24.94,55.38a1.462,1.462,0,0,0,0,2.02,1.424,1.424,0,0,0,2.02,0L39.6,44.76a1.4,1.4,0,0,0,0-2Z"
+                        transform="translate(0 -23.76)" />
+                </g>
+            </svg>
+        </button>
+    </div>
+
+</div>
+<footer class="end">
+    <p class="copyright">Copyright @ Simple Food 2020</p>
+    <p class="social">Instagram  /   Facebook   /   Pinterest</p>
+</footer>
+
+  </body>
+</html>

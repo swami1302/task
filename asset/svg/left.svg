@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_4" data-name="Path 4" d="M40,40H0V0H40Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Arrow" data-name="Icon - Arrow" clip-path="url(#clip-path)">
+    <path id="Path_3" data-name="Path 3" d="M13.08,57.4a1.421,1.421,0,1,0,2.02-2L4.88,45.18H38.6a1.4,1.4,0,0,0,1.42-1.4,1.43,1.43,0,0,0-1.42-1.44H4.86l10.22-10.2a1.462,1.462,0,0,0,0-2.02,1.424,1.424,0,0,0-2.02,0L.42,42.76a1.4,1.4,0,0,0,0,2Z" transform="translate(-0.02 -23.76)"/>
+  </g>
+</svg>

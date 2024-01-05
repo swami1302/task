@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.609" height="40" viewBox="0 0 35.609 40">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_24" data-name="Path 24" d="M0,0H35.609V38.767H0Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_26" data-name="Path 26" d="M0,0H35.609V40H0Z" fill="none" clip-rule="evenodd"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Arrow_small" data-name="Icon - Arrow small" transform="translate(0 241.597)">
+    <g id="Group_58" data-name="Group 58" transform="translate(0 -241.597)">
+      <g id="Group_55" data-name="Group 55" transform="translate(0 0.597)" clip-path="url(#clip-path)">
+        <g id="Group_54" data-name="Group 54">
+          <path id="Path_23" data-name="Path 23" d="M0,0H35.609V38.767H0Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_57" data-name="Group 57" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <g id="Group_56" data-name="Group 56" transform="translate(8.001 2.125)">
+          <path id="Path_25" data-name="Path 25" d="M73.238,16.533,57.225.526a1.8,1.8,0,0,0-2.545,2.54L69.423,17.8,54.681,32.541a1.8,1.8,0,0,0,2.545,2.542L73.24,19.075A1.814,1.814,0,0,0,73.238,16.533Z" transform="translate(-54.153)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
