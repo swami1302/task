@@ -27,7 +27,7 @@ body {
 
 /* Menu */
 .menu {
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -50,7 +50,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: #707070;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -139,7 +139,7 @@ body {
     height: 56px;
     background-color: var(--button-color);
     font-weight: 500;
-    color: #FFFFFF;
+    color: var(--background-color);
     border-radius: 5px;
     border: none;
     outline: none;
@@ -148,7 +148,7 @@ body {
 }
 
 .container-1 button:hover{
-    background-color: #000000;
+    background-color: var(--black-text-color);
 }
 
 /* Image slider */
@@ -185,7 +185,7 @@ body {
     position: absolute;
     height: 50px;
     width: 50px;
-    color: #000000;
+    color: var(--black-text-color);
     background: rgba(0, 0, 0, 0.0);
     cursor: pointer;
     border: none;
@@ -232,7 +232,7 @@ body {
 .img-list .text-content h3{
     font-family: var(--font1);
     font-weight: var(--font-medium);
-    color: #000000;
+    color: var(--black-text-color);
     margin-top: 12px;
     font-size: 18px;
 
@@ -267,7 +267,7 @@ body {
 
 .dishes a{
     text-decoration: none;
-    color: #000000;
+    color: var(--black-text-color);
     font-size: 15px;
     margin-right: 82px;
     
@@ -303,7 +303,7 @@ body {
 .dishes .box-container .box .heading{
     font-weight: var(--font-medium);
     font-size: 18px;
-    color: black;
+    color: var(--black-text-color);
     margin-top: 12px;
 
 }
@@ -345,7 +345,7 @@ body {
     width: 273px;
     height: 56px;
     background-color: var(--news-btn);
-    color: #ffffff;
+    color: var(--background-color);
     border: none;
     outline: none;
     cursor: pointer;

@@ -28,7 +28,7 @@ body {
 
 /* Menu */
 .menu {
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -51,7 +51,7 @@ body {
 
 .menu a {
     text-decoration: none;
-    color: #707070;
+    color: var(--text-color);
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -139,7 +139,7 @@ body {
     height: 512px;
 }
 .instrunction-2 {
-    top: -150px;
+    top: -230px;
 }
 .instruction-1,
 .instrunction-2 {
@@ -167,6 +167,12 @@ body {
 }
 .instruction-1 ul .details{
     line-height: 30px;
+    display: flex;
+        align-items: center; 
+}
+
+.instruction-1 .details svg {
+    margin-right: 10px;
 }
 
 .instruction-1 ul .details span{
@@ -275,7 +281,7 @@ body {
     position: absolute;
     height: 50px;
     width: 50px;
-    color: #000000;
+    color: var(--black-text-color);
     background: rgba(0, 0, 0, 0.0);
     cursor: pointer;
     border: none;
@@ -322,7 +328,7 @@ body {
 .img-list .text-content h3{
     font-family: var(--font1);
     font-weight: var(--font-medium);
-    color: #000000;
+    color: var(--black-text-color);
     margin-top: 12px;
     font-size: 18px;
 
